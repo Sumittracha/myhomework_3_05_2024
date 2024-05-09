@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body style=" justify-content: center;">
+   <div class="quiz-container">
+        <h1></h1>
+        <p id="question1">ข้อที่ 1. GoSoft เป็นบริษัทที่ทำเกี่ยวกับอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a')">A) ไอที</button>
+        <button class="button" onclick="checkAnswer('b')">B) การตลาด</button>
+        <button class="button" onclick="checkAnswer('c')">C) อสังหาริมทรัพย์</button>
+        <button class="button" onclick="checkAnswer('d')">D) บัญชี</button>
+        <p id="result"></p>
+        <h1></h1>
+        <hr>
+        <h1></h1>
+        <p>ข้อที่ 2. GoSoft อยู่ในเครืออะไร ?</p>
+        <button class="button" onclick="checkAnswer2('8')">A) Honda</button>
+        <button class="button" onclick="checkAnswer2('9')">B) Miszu</button>
+        <button class="button" onclick="checkAnswer2('10')">C) CP</button>
+        <button class="button" onclick="checkAnswer2('all')">D) Toyota</button>
+        <p id="result2"></p>
+        <div class="sum"> 
+            <h3>จำนวนข้อที่คอบถูก</h3>
+            <p id="sumTotal">ยังไม่ได้ตอบ</p>
+        </div>
+
+   </div>
+
+   <script src="index.js"></script>
+</body>
+</html>
