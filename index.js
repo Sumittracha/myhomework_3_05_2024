@@ -3,6 +3,7 @@ function checkAnswer(answer) {
     if (answer === 'a') {
         result.textContent = "ถูกต้อง Gosoft เป็นบริษัท ด้าน ไอที";
         result.style.color = 'green';
+ 
     } else {
         result.textContent = "Incorrect! Try again.";
         result.style.color = 'red';
@@ -15,6 +16,7 @@ function checkAnswer2(answer) {
     if (answer === 'all'){
         result2.textContent = "ถูกต้องนะค๊าฟฟฟฟ!!";
         result2.style.color = 'green';
+        
     } else {
         result2.textContent = "เอ๊ะ ไม่น่าจะอยู่ในเครือนี้";
         result2.style.color = 'red';
